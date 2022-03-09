@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>77fefd69-57fd-496b-a80a-871a0b1994ea</ProjectGuid>
+    <ProjectGuid>4de1637a-a7ee-4766-8f41-3b9945c9c0c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>diceroll.py</StartupFile>
+    <StartupFile>dice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>DiceRoll</Name>
-    <RootNamespace>DiceRoll</RootNamespace>
+    <Name>dices</Name>
+    <RootNamespace>dices</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="diceroll.py" />
+    <Compile Include="dice.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
